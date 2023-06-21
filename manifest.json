@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "CrossPost Extension",
+    "version": "1.0",
+    "description": "A Chrome extension for cross-posting to Twitter and LinkedIn.",
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "permissions": [
+      "tabs",
+      "identity",
+      "https://api.twitter.com/*",
+      "https://api.linkedin.com/*",
+      "https://www.linkedin.com/*"
+    ],
+    "action": {
+      "default_popup": "js/index.html",
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      }
+    },
+    "host_permissions": ["https://www.linkedin.com/"]
+  }
+  
